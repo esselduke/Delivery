@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>| Secure Login</title>
+    <link rel="icon" href="img/favicon.ico" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="nav">
+      <ul class="nav-ul">
+        <li class="logo-li">
+          <img class="nav-logo" src="img/sani2.png" alt="" />
+        </li>
+        <li class="toggler"><i class="fa-solid fa-bars"></i></li>
+        <li class="nav-items"><a href="index.html">Home</a></li>
+        <li class="nav-items"><a href="tracking.html">Track an order</a></li>
+      </ul>
+    </div>
+    <section class="login">
+      <div class="div-border">
+        <h1>My Account / Login</h1>
+        <div class="flex-login">
+          <fieldset>
+            <legend>Login</legend>
+            <form name="formLogin" action="index.html" method="post">
+              <table>
+                <tr>
+                  <td><label for="">Account No : </label></td>
+                  <td>
+                    <input
+                      class="account-input"
+                      type="password"
+                      name="accountNumber"
+                      value=""
+                    /><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="">Pin Code : </label></td>
+                  <td>
+                    <input
+                      class="pin-input"
+                      type="password"
+                      name="pinCode"
+                      value=""
+                    /><br />
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>
+                    <button name="log" value="Login" onclick="myLogin()">
+                      Login
+                    </button>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </fieldset>
+          <div class="">
+            <img src="img/login.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <p>Copyright © MKD. All Rights Reserved.</p>
+    </section>
+  </body>
+</html>
